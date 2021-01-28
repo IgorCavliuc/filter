@@ -1,0 +1,35 @@
+.filter{
+}
+.filter-btns{
+    display: flex;
+    margin: 0 auto;
+    cursor:pointer;
+}
+.filter-btns_item.active{
+    font-weight: 800;
+    color: maroon;
+}
+.filter-btns_item {
+padding: 15px;
+margin: 5px;
+}
+.filter-content {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin:15px;
+    float: left;
+}
+.filter-content img{
+    
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    padding:5px;
+}
+
+/* @media (max-width: 1080px){
+    .filter-options{
+        display: none;
+    }
+} */
